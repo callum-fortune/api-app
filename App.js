@@ -5,8 +5,10 @@ export default function App() {
   return (
     <View className="flex h-screen items-center justify-center">
 
-      <Text className="bg-black px-4 py-2 text-white">Hello, world!</Text>
-      
+      <View className="bg-black px-4 py-2 rounded-lg">
+        <Text className="text-white text-[20px]">Hello, world!</Text>
+      </View>
+
       <StatusBar style="auto" />
     </View>
   );
